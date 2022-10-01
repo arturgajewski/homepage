@@ -1,0 +1,106 @@
+.form {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Lato', sans-serif;
+}
+
+.form__fieldset {
+    border: none;
+    background-color: teal;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 22px #c9c9c9;
+}
+
+.form__fieldset--legend {
+    background-color: rgb(249, 183, 96);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    border-bottom: 2px solid #c9c9c9;
+    color: #fff;
+}
+
+.form__legend--star {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.form__label {
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.form__input {
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.form__input:required {
+    background-color: #c9c9c9;
+}
+
+.form__input:invalid {
+    background-color: hsla(0, 99%, 85%, 0.814);
+}
+
+.form__input:valid {
+    background-color: hsl(127, 94%, 90%);
+}
+
+.form__input--textarea {
+    resize: vertical;
+    min-height: 100px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.form__button--submit {
+    padding-left: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin: 10px 50px;
+    border: none;
+    background-color: teal;
+    color: white;
+}
+
+.form__button--submit:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+
+.form__button--reset {
+    padding-left: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin: 10px 50px;
+    border: none;
+    background-color: teal;
+    color: white;
+}
+
+.form__button--reset:hover {
+    background-color: hsl(180, 100%, 30%);
+}

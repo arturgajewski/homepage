@@ -1,0 +1,29 @@
+.navigation {
+    margin-top: auto;
+    background-color: rgb(249, 183, 96);
+    color: #eaeaea;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 0px 0px 10px 10px;
+    list-style-type:none;
+    margin-bottom:20px;
+}
+
+.navigation__links {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 2px 9px #222;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.navigation__links:hover {
+    background-color: rgb(65, 140, 239);
+    border-bottom: 2px solid rgb(44, 100, 174);
+    border-left: 3px solid rgb(37, 85, 147);
+    border-radius: 5px 7px 9px 0px;
+}
+
+.navigation__links--list {
+    float: left;
+}
