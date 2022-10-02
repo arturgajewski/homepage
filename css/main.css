@@ -1,0 +1,9 @@
+.main__background{
+    background-image: url("../images/fr3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paragraph {
+    text-indent: 5%;
+}

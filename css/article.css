@@ -20,4 +20,16 @@
     max-height: 400px;
     margin: 40px auto;
     display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section__tittle {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: overline wavy rgb(65, 140, 239);
+    text-transform: uppercase;
 }
