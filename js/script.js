@@ -1,22 +1,22 @@
-function welcome() {
-  console.log("Witaj w devtools mojej strony :)");
-}
-welcome();
-
-let onChangeBackgroundColor = () => 
 {
-  body.classList.toggle("darkBody");
-  if (body.classList.contains("darkBody")) {
-    darkedName.innerText = "jasny";
-  } else {
-    darkedName.innerText = "ciemny";
-  }
-};
+  const welcome = () => {
+    console.log("Witaj w devtools mojej strony :)");
+  };
+  welcome();
 
-let body = document.querySelector(".body");
-let changeBackground = document.querySelector(".js-button__changeBackground");
-let darkBody = document.querySelector(".darkBody");
-let darkedName = document.querySelector(".darkedName");
-let changeText = document.innerText;
-
-changeBackground.addEventListener("click", onChangeBackgroundColor);
+  const toggleBackground = () => {
+    const body = document.querySelector(".body");
+    const darkedName = document.querySelector(".darkedName");
+    body.classList.toggle("darkBody");
+    darkedName.innerText = body.classList.contains("darkBody")
+      ? "jasny"
+      : "ciemny";
+  };
+  const init = () => {
+    const changeBackground = document.querySelector(
+      ".js-button__changeBackground"
+    );
+    changeBackground.addEventListener("click", toggleBackground);
+  };
+  init();
+}
