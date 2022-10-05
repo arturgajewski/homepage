@@ -1,3 +1,9 @@
+ - [DEMO](https://github.com/arturgajewski/homepage/blob/main/README.md#demo-website)
+ - [PREVIEW](https://github.com/arturgajewski/homepage/blob/main/README.md#preview)
+ - [HOWITWORK](https://github.com/arturgajewski/homepage/blob/main/README.md#how-it-work)
+ - [USED TECHNOLOGIES](https://github.com/arturgajewski/homepage/blob/main/README.md#used-technologies)
+ - [AUTHOR](https://github.com/arturgajewski/homepage/blob/main/README.md#author)
+
 # Welcome in my HOMEPAGE
 ![This is my first homepage for learning with you-code.pl](https://raw.githubusercontent.com/arturgajewski/homepage/main/images/homepage.png)
 
