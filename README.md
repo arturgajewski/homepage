@@ -1,16 +1,23 @@
-# homepage
-This is my first homepage for learning with you-code.pl
+# Welcome in my HOMEPAGE
+![This is my first homepage for learning with you-code.pl](https://raw.githubusercontent.com/arturgajewski/homepage/main/images/homepage.png)
 
-## DEMO
-(https://arturgajewski.github.io/homepage/)
+## DEMO WEBSITE
 
-#### How build
+[DEMO](https://arturgajewski.github.io/homepage/)
 
-1. HTML
-2. CSS
-- To better preview website
-3. Javasrcipt
-- For change background color website to dark
+## PREVIEW
+![this is the preview currency converter,you can see how it work](https://github.com/arturgajewski/homepage/blob/main/images/homepageanimation.gif)
+## HOW IT WORK?
 
-##### Author
-Artur Gajewski
+You can read more about my life and my work. You can see too my first project with HTML,CSS and JavaScript. 
+
+##  Used Technologies
+
+### To build this application i used
+1.  Semantic HTML
+2.  CSS
+3.  BEM convenction
+4.  ES6+
+
+## AUTHOR 
+### ARTUR GAJEWSKI
