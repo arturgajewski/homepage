@@ -24,6 +24,6 @@ You can read more about my life and my work. You can see too my first project wi
 2.  CSS
 3.  BEM convenction
 4.  ES6+
-
+5.  RWD (Media Queries)
 ## AUTHOR 
 ### ARTUR GAJEWSKI
